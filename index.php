@@ -4,7 +4,6 @@ $jsPage = "home";
 $title = "TS Painting and Remodeling, INC.";
 require 'site-sections/header-info.php';?>
 
-
 <div class="row">
 	<div class="col-xs-12 col-sm-4">
 		<ul>

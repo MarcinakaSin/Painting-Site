@@ -11,6 +11,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="bootstrap-3.2.0-dist/js/bootstrap.min.js"></script>
+	<script src="modernizr.min.js"></script>  <!-- modernizer.min.js detects if localstorage is avaible on the browser -->
 
 	<!-- Site specific files 
 	<link rel="stylesheet" href="custom-css/custom-css.css" />
@@ -21,6 +22,34 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+<script type="text/javascript">
+		if (Modernizr.localstorage) {  // checks for localstorage true
+		  // window.localStorage is available!
+	    	function store_name() {
+	    		var user_name = prompt("What's your name?");
+	    		localStorage.setItem("user_name", user_name);
+
+	    		displayGreeting(); // Calls Greeting function
+	    	}
+
+	    	function displayGreeting () {
+	    	var user_name = localStorage.getItem("user_name");
+	    	var menuGreeting = document.getElementById("add-name");
+			//user_name = (typeof user_name === "undefined") ? "" : user_name;
+		    	if (user_name && user_name !== "null"){
+		    		// alert(user_name);
+		    		menuGreeting.innerHTML = 'Hi ' + user_name + '!';
+		    	} else {  // if localstorage doesn't exist on the browser.
+		    		menuGreeting.innerHTML = 'Greetings!';
+		    	}
+	    	}
+		} else {
+		  // no native support for HTML5 storage :(
+		  // maybe try dojox.storage or a third-party solution
+	    	document.getElementById("add-name").style.display = "none";
+		} 
+</script>
     <script type="text/javascript">
     /* Toggles Tabs */
     		var value = "<?php echo $jsPage; ?>";
@@ -63,7 +92,7 @@
 		}
     </script>
 </head>
-<body onload="showPageContent();">
+<body onload="showPageContent();displayGreeting();">
 <div class="container">
 <header>
 	<!-- Sliding Header Start -->
@@ -107,13 +136,16 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">TS Painting and Remodeling, INC.</a>
+            <a class="navbar-brand" href="index.php">TS Painting and Remodeling, INC.</a>
           </div>
           <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-              <li id='home-tab' class="active"><a onclick="showPageContent('home-content')" href="index.php">Home</a></li>
-              <li id='internal-tab'><a onclick="showPageContent('internal-content')" href="internal-work.php">Internal Work</a></li>
-              <li id='external-tab'><a onclick="showPageContent('external-content')" href="external-work.php">External Work</a></li>
+              <li id='home-tab' class="active"><a href="index.php">Home</a></li>
+              <li id='internal-tab'><a href="internal-work.php">Internal Work</a></li>
+              <li id='external-tab'><a href="external-work.php">External Work</a></li>
+              <li style="vertical-align:bottom;"><a href="#" onclick="store_name();" id='add-name'>
+              	Greetings!</a>
+              </li>
             </ul>
           </div><!--/.nav-collapse -->
         </div>
