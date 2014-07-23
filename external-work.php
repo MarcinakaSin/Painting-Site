@@ -1,5 +1,6 @@
 
 <?php 
+$metaKey = "Deck Cleaning and Deck Staining, Exterior Power Washing, Caulking and Scraping, Priming, Garage Floor Painting, Garage Door Stripping, Garage Door Staining, Fence Painting and Fence Staining, Gazebo Painting and Gazebo Staining, Playground Equipment Staining, Front Door Staining, Wide Selection of the Latest Exterior Colors, Power Washing, Deck Chemical Cleaning, Deck Chemical Stripping, Solid Body & Semi-Transparent Stains, Wood Preservatives, Wide Selection of Latest Deck Colors, ";
 $jsPage = 'external';
 $title = "TS Painting and Remodeling, INC. - External Work";
 require 'site-sections/header-info.php';?>

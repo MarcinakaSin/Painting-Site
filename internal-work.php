@@ -1,5 +1,6 @@
 
 <?php 
+$metaKey = "Surface Preparation, Window Staining, Wallpaper Removal, Wood Staining, Wide Selection of the Latest Interior Colors, ";
 $jsPage = "internal";
 $title = "TS Painting and Remodeling, INC. - Internal Work";
 require 'site-sections/header-info.php';?>
@@ -12,7 +13,7 @@ require 'site-sections/header-info.php';?>
 	</div>
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
-			Homeowners can choose from a wide range of services to meet your interior decorating needs…
+			Homeowners can choose from a wide range of services to meet your interior decorating needs...
 				<br>
 			<ul>
 			    <li>Surface preparation</li>

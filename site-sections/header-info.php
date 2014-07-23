@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
+		<!-- SEO meta tags start -->
+	<meta name="description" content="Are you looking for quality work from an independent contractor?  We offer quality indoor and outdoor work at affordable rates. Contact us today!">
+	<meta name="keywords" content="Chicago, IL 60656, Harwood Heights, IL 60706, <?php echo $metaKey; ?> Garage Doors & Floors, Trim & Cabinets, Balconies, Stairwells, Interior Painting, Drywall Repair & Patching, Light Carpentry,
+Conference Rooms, Common Areas, Fences & Railings, Concrete & Wood, Sealing, Decks & Porches, Offices, 
+Refinishing of Doors & Woodwork, Water Damage Repair, Windows & Doors, Lobbies & Hallways">
+	<meta name="author" content="Marcin Ufniarz">
+		<!-- SEO meta tags end -->
+
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title><?php echo $title; ?></title>
@@ -58,35 +66,23 @@
     		var internalTab = document.getElementById("internal-tab");
     		var externalTab = document.getElementById("external-tab");
     		if (value === "home") {
-	    		//homeElement.style.display = "inline";
 	    		homeTab.classList.add("active");
-	    		//internalElement.style.display = "none";
 	    		internalTab.classList.remove("active");
-	    		//externalElement.style.display = "none";
 	    		externalTab.classList.remove("active");
 
     		} else if (value === "internal") {
-	    		//homeElement.style.display = "none";
 	    		homeTab.classList.remove("active");
-	    		//internalElement.style.display = "inline";
 	    		internalTab.classList.add("active");
-	    		//externalElement.style.display = "none";
 	    		externalTab.classList.remove("active");
 
     		} else if (value === "external") {
-	    		//homeElement.style.display = "none";
 	    		homeTab.classList.remove("active");
-	    		//internalElement.style.display = "none";
 	    		internalTab.classList.remove("active");
-	    		//externalElement.style.display = "inline";
 	    		externalTab.classList.add("active");
 
 	    	} else {
-	    		//homeElement.style.display = "inline";
 	    		homeTab.classList.add("active");
-	    		//internalElement.style.display = "none";
 	    		internalTab.classList.remove("active");
-	    		//externalElement.style.display = "none";
 	    		externalTab.classList.remove("active");
 	    	}
 		}

@@ -1,5 +1,6 @@
 
 <?php 
+$metaKey = "Exterior Painting, Interior Painters, Pressure Washing, Commercial Painting, House Painters, Assisted Living Facilities, Trim Painting, Deck Staining, Window Staining, Power Washing, ";
 $jsPage = "home";
 $title = "TS Painting and Remodeling, INC.";
 require 'site-sections/header-info.php';?>
