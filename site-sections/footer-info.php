@@ -35,7 +35,7 @@
 			Lobbies & Hallways<br>
 		</div>
 	</div>
-	<div class="alert alert-info" role="alert">
+	<div class="alert alert-info" role="alert" style="margin-top:20px;">
 		<div class="row">
   			<div class="col-xs-12 col-sm-6">
 	        	<strong>LOOK FORWORD TO WORKING WITH YOU.</strong><br>

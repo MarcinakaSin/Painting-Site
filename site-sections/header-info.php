@@ -102,13 +102,13 @@ Refinishing of Doors & Woodwork, Water Damage Repair, Windows & Doors, Lobbies &
 	        </ol>
 	        <div class="carousel-inner">
 	          <div class="item">
-	            <img src="custom-image/sunflowers-header.jpg" data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide">
+	            <img src="custom-image/home-garden-flowers-and-beautiful-path-web-header.jpg" data-src="holder.js/1140x500/auto/#777:#555/text:First slide" alt="First slide">
 	          </div>
 	          <div class="item">
-	            <img src="custom-image/fireworks-header.jpg" data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide">
+	            <img src="custom-image/house-illustration-header.jpg" data-src="holder.js/1140x500/auto/#666:#444/text:Second slide" alt="Second slide">
 	          </div>
 	          <div class="item active">
-	            <img src="custom-image/global-header.jpg" data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
+	            <img src="custom-image/nice-house-and-garden-header.jpg" data-src="holder.js/1140x500/auto/#555:#333/text:Third slide" alt="Third slide">
 	          </div>
 	        </div>
 	        <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">

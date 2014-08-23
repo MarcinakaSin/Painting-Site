@@ -7,7 +7,7 @@ require 'site-sections/header-info.php';?>
 
 <div class="row">
 	<div class="col-xs-12 col-sm-4">
-		<ul>
+		<ul style="margin-bottom:0px !important;">
 			<li>Exterior Painting</li>
 		    <li>Interior Painters</li>
 		    <li>Pressure Washing</li>
@@ -15,14 +15,14 @@ require 'site-sections/header-info.php';?>
 	</div>
 
 	<div class="col-xs-12 col-sm-4">
-		<ul>
+		<ul style="margin-bottom:0px !important;">
 		    <li>Commercial Painting</li>
 		    <li>House Painters</li>
 		    <li>Assisted Living Facilities</li>
 		</ul>
 	</div>
 	<div class="col-xs-12 col-sm-4">
-		<ul>
+		<ul style="margin-bottom:0px !important;">
 		    <li>Trim Painting</li>
 		    <li>Deck Staining</li>
 		    <li>Window Staining</li>
@@ -30,7 +30,7 @@ require 'site-sections/header-info.php';?>
 		</ul>
 	</div>
 </div>
-<div class="row">
+<div class="row" style="margin-top:20px;">
 	<div class="col-xs-12">		
 		TS PAINTING & REMODELING takes pride in our work. Let us take care of all your painting needs. Whether it’s a room or an entire building, no job is too big or too small. At TS Painting & Remodeling we provide quality painting at an affordable price. All painting is completed on time and at cost by our outstanding group of professional painters. We work with you to accommodate your schedule and timeline. 100% Satisfaction is our #1 goal!!
 			<br><br>
